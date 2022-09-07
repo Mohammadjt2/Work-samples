@@ -12,27 +12,35 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="header">
-            <div class="icons">
-                <i class="fa fa-plus"></i>
-                <i class="fa fa-minus"></i>
-                <i class="fa fa-close"></i>
+    <div class="parent">
+        <header class="head">
+            <div class="header">
+                <div class="icons">
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-minus"></i>
+                    <i class="fa fa-close"></i>
+                </div>
+                <div class="title">My Application</div>
             </div>
-            <div class="title">My Application</div>
-        </div>
-    </header>
-    <main>
+        </header>
         <div class="nav">Nav</div>
-        <div class="main">
-            <form class="input">
-                <div><span>Name:</span><input class="userName" type="text"></div>
-                <div><span>Family:</span><input class="userFamily" type="text"></div>
-                <div><span>Age:</span><input class="userAge" type="text"></div>
-                <input class="Submit" type="Submit">
-                <p class="blanks">Fill in the blanks :(</p>
+        <div class="main-left">
+            <form class="parentForms">
+                <span>Name:</span>
+                <div class="userName"><input id="userName" type="text"></div>
+                <span>Family:</span>
+                <div class="userFamily"><input id="userFamily" type="text"></div>
+                <span>Age:</span>
+                <div class="userAge"><input id="userAge" type="text"></div>
+                <div></div>
+                <div class="submit"><input id="submit" type="Submit"></div>
+                <div></div>
+                <div>
+                    <p class="blanks">Fill in the blanks :(</p>
+                </div>
             </form>
+        </div>
+        <div class="main-right">
             <table class="table" border="1">
                 <tr>
                     <th>Name</th>
@@ -62,8 +70,7 @@
             </table>
         </div>
         <footer class="footer">Footer</footer>
-    </main>
-
+    </div>
 
 
 
