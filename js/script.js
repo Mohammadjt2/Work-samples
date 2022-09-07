@@ -1,11 +1,11 @@
-let Submit = document.querySelector(".Submit");
+let userName = document.querySelector("#userName");
+let userFamily = document.querySelector("#userFamily");
+let userAge = document.querySelector("#userAge");
+let Submit = document.querySelector("#submit");
 let blanks = document.querySelector(".blanks");
-let userName = document.querySelector(".userName");
-let userFamily = document.querySelector(".userFamily");
-let userAge = document.querySelector(".userAge");
 let table = document.querySelector(".table");
 
-Submit.addEventListener("click", (event) => {
+submit.addEventListener("click", (event) => {
   event.preventDefault();
   let userAgeValue = userName.value;
   let userFamilyValue = userFamily.value;
